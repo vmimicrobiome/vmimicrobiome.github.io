@@ -1,6 +1,8 @@
 ## Welcome to the VMI Microbiome Boot Camp II Preview!
 
 This page will help prepare you for the VMI Microbiome Boot Camp II on February 26, 2021. 
+![Microbiome](https://static01.nyt.com/images/2017/11/07/science/07BRODY/07BRODY-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
+
 
 ### ABOUT THE VMI 
 
@@ -12,9 +14,9 @@ From bacteria to archaea, viruses, and single-celled eukaryotes, communities of 
 We will be using the command line to interact with Qiime. 
 Here's what that will look like:
 `Code`
+```
 Once we process our microbiome data we will jump over to MicrobiomeAnalyst to upload our data and use a Graphic User Interface aka GUI (pronouced "gooey") to analyze and vizulaize our microbiome data. 
 
-```
 
 ![Microbiome](https://static01.nyt.com/images/2017/11/07/science/07BRODY/07BRODY-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
 
@@ -22,11 +24,12 @@ Once we process our microbiome data we will jump over to MicrobiomeAnalyst to up
 
 ### What To Expect From This Boot Camp
 
+If you want to [learn more about alpha and beta diversity ](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video for a gentle introduction. 
 ### Installing Qiime
 
-[install Qiime on a Mac ](https://youtu.be/1vRQ2MPRRpo)
-[install Qiime on a Windows PC ](https://youtu.be/b4l_wIJ1dwE)
-[learn more about alpha and beta diversity ](https://youtu.be/CQaFT_vVQvw)
+The first thing we need to do is [install Qiime on a Mac ](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC ](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! If you're not able to get it running then make an zoom appointment with the VMI team and we'll try to trouble shoot it along with you. We have avaialbility every Monday and Friday from 12PM-1PM until the 26th. 
+
+
 
 
 
