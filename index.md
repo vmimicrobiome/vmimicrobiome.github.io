@@ -11,7 +11,7 @@ The [Vanderbilt Microbiome Initiative (VMI)](https://lab.vanderbilt.edu/microbio
 
 From bacteria to archaea, viruses, and single-celled eukaryotes, communities of microbes have major impacts on our health, our homes, our genomes, the oceans, atmosphere, and biodiversity. The Vanderbilt Microbiome Initiative is producing research, education, and outreach that will improve basic, translational, and clinical science, spur new aspects of law and and philosophy, and expose a microbial world astonishing in its universality and diversity.
 
-![Microbiome2](https://static01.nyt.com/images/2017/11/07/science/07BRODY/07BRODY-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
+![Microbiome2](https://i.pinimg.com/originals/1d/5b/c6/1d5bc60fad3cca95e2b507fd95f305e2.jpg)
 
 ### What To Expect From This Boot Camp
 
