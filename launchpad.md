@@ -17,7 +17,7 @@ We will be using the command line to interact with Qiime. You can learn more abo
 Here's what that will look like when we encounter code together during the boot camp:
 `This is code that you can copy and paste right into your command line =D `
 ```
-Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca\) to upload our data and use a Graphic User Interface aka GUI (pronouced "gooey") to analyze and vizulaize our microbiome data. 
+Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our data and use a Graphic User Interface aka GUI (pronouced "gooey") to analyze and vizulaize our microbiome data. 
 
 
 
