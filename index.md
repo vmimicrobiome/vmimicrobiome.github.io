@@ -11,7 +11,8 @@ The [Vanderbilt Microbiome Initiative (VMI) ](https://lab.vanderbilt.edu/microbi
 From bacteria to archaea, viruses, and single-celled eukaryotes, communities of microbes have major impacts on our health, our homes, our genomes, the oceans, atmosphere, and biodiversity. The Vanderbilt Microbiome Initiative is producing research, education, and outreach that will improve basic, translational, and clinical science, spur new aspects of law and and philosophy, and expose a microbial world astonishing in its universality and diversity.
 
 ```markdown 
-We will be using the command line to interact with Qiime. 
+We will be using the command line to interact with Qiime. You can learn more about the basics of command line [here](https://youtu.be/5XgBd6rjuDQ). 
+
 Here's what that will look like:
 `Code`
 ```
