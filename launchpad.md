@@ -27,7 +27,9 @@ Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](htt
 If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video for a gentle introduction. 
 ### Installing Qiime
 
-The first thing we need to do is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! If you're not able to get it running then make an zoom appointment with the VMI team and we'll try to trouble shoot it along with you. We have avaialbility every Monday and Friday from 12PM-1PM until the 26th. 
+The first thing we need to do is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
+
+**If you're not able to get it running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have avaialbility every Monday and Friday from 12PM-1PM until the 26th.**
 
 
 
