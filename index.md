@@ -2,13 +2,9 @@
 
 This page will get you prepared for the VMI Microbiome Boot Camp II on February 26, 2021. 
 
-You can use the [editor on GitHub](https://github.com/vmimicrobiome/vmimicrobiome.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 ### ABOUT THE VMI 
 
-The Vanderbilt Microbiome Initiative (VMI) brings together an unprecedented group of multidisciplinary expertise from six schools in the university to: (i) create an infrastructure that unifies the microbiome community around complex challenges, (ii) catalyze campus-wide research, training, and teaching activities, and (iii) deploy state-of-the-science technologies and methods that will fundamentally advance microbiome science, therapy, education, and policy.
+The [Vanderbilt Microbiome Initiative (VMI)](https://lab.vanderbilt.edu/microbiome/)brings together an unprecedented group of multidisciplinary expertise from six schools in the university to: (i) create an infrastructure that unifies the microbiome community around complex challenges, (ii) catalyze campus-wide research, training, and teaching activities, and (iii) deploy state-of-the-science technologies and methods that will fundamentally advance microbiome science, therapy, education, and policy.
 
 From bacteria to archaea, viruses, and single-celled eukaryotes, communities of microbes have major impacts on our health, our homes, our genomes, the oceans, atmosphere, and biodiversity. The Vanderbilt Microbiome Initiative is producing research, education, and outreach that will improve basic, translational, and clinical science, spur new aspects of law and and philosophy, and expose a microbial world astonishing in its universality and diversity.
 
