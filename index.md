@@ -19,7 +19,7 @@ We will be using the command line to interact with Qiime. You can learn more abo
 Here's what that will look like when we encounter code together during the boot camp:
 `This is code that you can copy and paste right into your command line during the boot camp =D `
 ```
-Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our data and use a Graphical User Interface aka GUI (pronouced "gooey") to analyze and vizulaize our microbiome data. 
+Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our data and use a Graphical User Interface aka GUI (_pronouced "gooey"_) to analyze and visualize our microbiome data. 
 
 If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video for a gentle introduction. 
 ### Installing Qiime
