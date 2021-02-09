@@ -19,8 +19,15 @@ From bacteria to archaea, viruses, and single-celled eukaryotes, communities of 
 
 Here's what that will look like when we encounter code together during the boot camp:
 ```markdown 
-This is code that you can copy and paste right 
-into your command line during the boot camp =D
+This is code that you can copy and paste right in your command line during the boot camp 
+
+<details>
+<summary>Example</summary>
+<ul><li>This dropdown contains</li>
+<li>a list!</li></ul>
+<img src="https://apaskulin.github.io/waxtechnical/images/pup.jpg" width="500">
+</details>
+
 ```
 - After we process our microbiome data in Qiime2, we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca), a web-based microbiome analysis tool, to upload our processed data and further analyze and visualize our microbiome data. MicrobiomeAnalyst is a graphical user interface aka GUI (_pronouced "gooey"_) which means we will be point and click for this portion of the boot camp.  
 
