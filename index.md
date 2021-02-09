@@ -1,6 +1,6 @@
 ## Welcome to the VMI Microbiome Boot Camp II Preview!
 
-This page will help prepare you for the VMI Microbiome Boot Camp II on February 26, 2021. 
+*This page will help prepare you for the VMI Microbiome Boot Camp II on February 26, 2021.* 
 ![Microbiome1](https://media.nature.com/w700/magazine-assets/d41586-020-00193-3/d41586-020-00193-3_17582910.jpg)
 
 ### ABOUT THE VMI 
