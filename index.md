@@ -2,7 +2,8 @@
 
 **This page will help prepare you for the VMI Microbiome Boot Camp II**
 
-![Microbiome1](https://media.nature.com/w700/magazine-assets/d41586-020-00193-3/d41586-020-00193-3_17582910.jpg)
+![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
+
 
 ### ABOUT THE VMI 
 
@@ -26,6 +27,8 @@ into your command line during the boot camp =D
 - Along the way we will be talking all about the microbiome, what it is, where to find it, how to sample it, when to use which test, and how to make sense of it all. If you can't wait to dig in, learn about major milestones in the study of the [microbiome](https://www.nature.com/immersive/d42859-019-00041-z/index.html?utm_source=twitter&utm_medium=social&utm_campaign=mile-humanmicrobiotaresearchintgutbrainaxis) as curated by the scientific journal, _Nature_. 
 
 - If you want to learn more about microbiome analysis now, including the metrics we use to evaluate microbiomes such as [alpha and beta diversity](https://youtu.be/CQaFT_vVQvw), watch this video from the VMI for a gentle introduction. 
+
+![Microbiome1](https://media.nature.com/w700/magazine-assets/d41586-020-00193-3/d41586-020-00193-3_17582910.jpg)
 
 ### What To Do Before The Boot Camp
 
