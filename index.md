@@ -16,10 +16,10 @@ From bacteria to archaea, viruses, and single-celled eukaryotes, communities of 
 
 - First, we will begin by using the command line to interact with [Qiime2](https://qiime2.org/) (_pronounced "chime"_), a bioinformatics pipeline for analyzing microbiome data. You can learn more about the basics of command line [here](https://youtu.be/5XgBd6rjuDQ) if you're on a Mac and [here](https://youtu.be/MBBWVgE0ewk) if you're on a computer running Windows. Don't worry if you've never used it before, we will walk you through each step during the boot camp and you will be able to copy and paste along with us from this very GitHub page.
 
-```markdown 
 Here's what that will look like when we encounter code together during the boot camp:
-`This is code that you can copy and paste right 
-into your command line during the boot camp =D`
+```markdown 
+This is code that you can copy and paste right 
+into your command line during the boot camp =D
 ```
 - Once we process our microbiome data in Qiime2, we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our processed data into a Graphical User Interface aka GUI (_pronouced "gooey"_) to further analyze and visualize our microbiome data. 
 
