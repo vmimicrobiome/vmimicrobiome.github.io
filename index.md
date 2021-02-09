@@ -17,8 +17,8 @@ We will be using the command line to interact with Qiime. You can learn more abo
 
 ```markdown 
 Here's what that will look like when we encounter code together during the boot camp:
-`This is code that you can copy and paste right 
-into your command line during the boot camp =D `
+``This is code that you can copy and paste right 
+into your command line during the boot camp =D``
 ```
 Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our data and use a Graphical User Interface aka GUI (_pronouced "gooey"_) to analyze and visualize our microbiome data. 
 
@@ -31,7 +31,7 @@ If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaF
 
 2) At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the boot camp.
 
-That's all for now, microbe hunters! We'll see you soon! 
+### That's all for now, microbe hunters! We'll see you soon! 
 
 ![Microbiome3](https://media.nature.com/lw800/magazine-assets/d41586-020-00194-2/d41586-020-00194-2_17582908.jpg)
 
