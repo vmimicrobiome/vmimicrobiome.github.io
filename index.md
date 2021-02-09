@@ -29,7 +29,7 @@ If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaF
 
 **If you're not able to get it running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have avaialbility every Monday and Friday from 12PM-1PM until the 26th.**
 
-2)At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the boot camp.
+2) At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the boot camp.
 
 That's all for now, microbe hunters! We'll see you soon! 
 
