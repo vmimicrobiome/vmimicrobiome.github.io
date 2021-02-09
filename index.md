@@ -32,6 +32,6 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### Jekyll Themes
 
-[install Qiime on a Mac] https://youtu.be/CQaFT_vVQvw
+[install Qiime on a Mac ](https://youtu.be/CQaFT_vVQvw)
 
 
