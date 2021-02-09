@@ -8,27 +8,19 @@ The [Vanderbilt Microbiome Initiative (VMI) ](https://lab.vanderbilt.edu/microbi
 
 From bacteria to archaea, viruses, and single-celled eukaryotes, communities of microbes have major impacts on our health, our homes, our genomes, the oceans, atmosphere, and biodiversity. The Vanderbilt Microbiome Initiative is producing research, education, and outreach that will improve basic, translational, and clinical science, spur new aspects of law and and philosophy, and expose a microbial world astonishing in its universality and diversity.
 
-Stay connected: If you would like to learn more about the Vanderbilt Microbiome Initiative, stay connected by using the contact form to the right or contacting the leadership team directly.
+```markdown 
+We will be using the command line to interact with Qiime. 
+Here's what that will look like:
+`Code`
+Once we process our microbiome data we will jump over to MicrobiomeAnalyst to upload our data and use a Graphic User Interface aka GUI (pronouced "gooey") to analyze and vizulaize our microbiome data. 
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+![Microbiome](https://static01.nyt.com/images/2017/11/07/science/07BRODY/07BRODY-articleLarge.jpg?quality=75&auto=webp&disable=upscale)
+
+
+
+### What To Expect From This Boot Camp
 
 ### Installing Qiime
 
