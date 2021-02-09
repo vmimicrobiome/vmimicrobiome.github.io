@@ -22,11 +22,17 @@ Here's what that will look like when we encounter code together during the boot 
 Once we process our microbiome data we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca) to upload our data and use a Graphical User Interface aka GUI (_pronouced "gooey"_) to analyze and visualize our microbiome data. 
 
 If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video for a gentle introduction. 
-### Installing Qiime
+### What To Do Before The Boot Camp
 
-The first thing we need to do is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
+1) The main thing we need to do to be prepared for the boot camp is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
 
 **If you're not able to get it running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have avaialbility every Monday and Friday from 12PM-1PM until the 26th.**
+
+2) On Thursday, Februaru 25th, the day before the boot camp, this page will magically update so all you have to do is return here the morning of the 26th and you will find all of the content for the day and an email in your inbox with the zoom invite to attend the boot camp.
+
+That's all for now, microbe hunters! We'll see you soon! - Rob & Liz, VMI Microbiome Boot Camp Directors 
+
+![Microbiome3](https://media.nature.com/lw800/magazine-assets/d41586-020-00194-2/d41586-020-00194-2_17582908.jpg)
 
 
 
