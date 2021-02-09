@@ -30,8 +30,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Installing Qiime
 
-[install Qiime on a Mac ](https://youtu.be/CQaFT_vVQvw)
+[install Qiime on a Mac ](https://youtu.be/1vRQ2MPRRpo)
+[install Qiime on a Windows PC ](https://youtu.be/b4l_wIJ1dwE)
+[learn more about alpha and beta diversity ](https://youtu.be/CQaFT_vVQvw)
+
 
 
