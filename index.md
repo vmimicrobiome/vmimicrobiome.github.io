@@ -25,7 +25,8 @@ into your command line during the boot camp =D`
 
 - Along the way we will be talking all about the microbiome, what it is, where to find it, how to sample it, when to use which test, and how to make sense of it all. If you can't wait to dig in, learn about major milestones in the study of the [microbiome](https://www.nature.com/immersive/d42859-019-00041-z/index.html?utm_source=twitter&utm_medium=social&utm_campaign=mile-humanmicrobiotaresearchintgutbrainaxis) as curated by Nature. 
 
-- If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video for a gentle introduction. 
+- If you want to [learn more about alpha and beta diversity](https://youtu.be/CQaFT_vVQvw) before the boot camp, watch this video from the VMI for a gentle introduction. 
+
 ### What To Do Before The Boot Camp
 
 1) The main thing we need to do to be prepared for the boot camp is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
