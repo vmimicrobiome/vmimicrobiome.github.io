@@ -42,7 +42,10 @@ This is code that you can copy and paste right in your command line during the b
 
 2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the bootcamp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the two folders in it (american_gut AND practice_dataset) onto your Desktop. 
 
-3) Take the [pre-course survey](https://www.surveymonkey.com/r/L9DPD6H)!
+
+3) Download the [Green Genes Database](https://github.com/awbrooks19/vmi_microbiome_bootcamp/blob/master/data/greengenes.zip) we will use during the Qiime portion of the workshop. Click the 'Download' button and save this to your Desktop as well. 
+
+4) Take the [pre-course survey](https://www.surveymonkey.com/r/L9DPD6H)!
 
 At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the zoom session.
 
