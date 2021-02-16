@@ -40,9 +40,7 @@ This is code that you can copy and paste right in your command line during the b
 
 **If you're not able to get Qiime2 running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM until the 26th.**
 
-2) Download the data folders (to your desktop) that we will be using during the bootcamp: 
-      i) [American Gut](https://github.com/vmimicrobiome/vmimicrobiome.github.io/tree/main/american_gut)
-      ii)[VMI Practice Dataset](https://github.com/vmimicrobiome/vmimicrobiome.github.io/tree/main/practice_dataset)
+2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the bootcamp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the two folders in it (american_gut AND practice_dataset) onto your Desktop. 
 
 3) At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the boot camp.
 
