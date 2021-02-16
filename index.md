@@ -40,7 +40,7 @@ This is code that you can copy and paste right in your command line during the b
 
 **If you're not able to get Qiime2 running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM until the 26th.**
 
-2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the bootcamp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the two folders in it (american_gut AND practice_dataset) onto your Desktop. 
+2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the bootcamp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the three folders in it (american_gut AND paired_end AND practice_dataset) onto your Desktop. 
 
 
 3) Download the [Green Genes Database](https://github.com/awbrooks19/vmi_microbiome_bootcamp/blob/master/data/greengenes.zip) we will use during the Qiime portion of the workshop. Click the 'Download' button and save this to your Desktop as well. 
