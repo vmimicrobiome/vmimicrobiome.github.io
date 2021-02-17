@@ -18,14 +18,14 @@ From bacteria to archaea, viruses, and single-celled eukaryotes, communities of 
 
 - First, we will begin by using the command line to interact with [Qiime2](https://qiime2.org/) (_pronounced "chime"_), a bioinformatics pipeline for analyzing microbiome data. Don't worry if you've never used it before, we will walk you through each step during the boot camp and you will be able to copy and paste along with us from this very GitHub page. You can learn more about the basics of command line [here](https://youtu.be/5XgBd6rjuDQ) if you're on a Mac and [here](https://youtu.be/MBBWVgE0ewk) if you're on a computer running Windows.
 
-Here's what that will look like when we encounter code together during the boot camp:
+Here's what that will look like when we encounter code together during the Boot Camp:
 ```markdown 
 
-This is code that you can copy and paste right in your command line during the boot camp 
+This is code that you can copy and paste! 
 
 ```
 
-- After we process our microbiome data in Qiime2, we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca), a web-based microbiome analysis tool, to upload our processed data and further analyze and visualize our microbiome data. MicrobiomeAnalyst is a graphical user interface aka GUI (_pronouced "gooey"_) which means we will be point and click for this portion of the boot camp.  
+- After we process our microbiome data in Qiime2, we will jump over to [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca), a web-based microbiome analysis tool, to upload our processed data and further analyze and visualize our microbiome data. MicrobiomeAnalyst is a graphical user interface aka GUI (_pronouced "gooey"_) which means we will be point and click for this portion of the Boot Camp.  
 
 - Along the way we will be talking all about the microbiome, what it is, where to find it, how to sample it, when to use which test, and how to make sense of it all. If you can't wait to dig in, learn about major milestones in the study of the [microbiome](https://www.nature.com/immersive/d42859-019-00041-z/index.html?utm_source=twitter&utm_medium=social&utm_campaign=mile-humanmicrobiotaresearchintgutbrainaxis) as curated by the scientific journal, _Nature_. 
 
@@ -36,11 +36,11 @@ This is code that you can copy and paste right in your command line during the b
 ---
 ### What To Do Before The Boot Camp
 
-1) The main thing we need to do to be prepared for the boot camp is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
+1) The main thing we need to do to be prepared for the Boot Camp is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
 
-**If you're not able to get Qiime2 running then make an zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM until the 26th.**
+**If you're not able to get Qiime2 running then make a zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM until the 26th.**
 
-2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the bootcamp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the three folders in it (**american_gut** AND **paired_end** AND **practice_dataset**) onto your Desktop. 
+2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the Boot Camp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the three folders in it (**american_gut** AND **paired_end** AND **practice_dataset**) onto your Desktop. 
 
 
 3) Download the [Green Genes Database](https://github.com/awbrooks19/vmi_microbiome_bootcamp/blob/master/data/greengenes.zip) we will use during the Qiime portion of the workshop. Click the 'Download' button and save this to your Desktop as well. 
