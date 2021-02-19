@@ -3,7 +3,6 @@ Microbiome Introduction
 
 ![Human Microbiome](/images/microbiome_human.jpg)
 
-
 A **biome** is a complex ecosystem of biological organisms, often defined and shaped by a shared ecosystem.
 
 Therefore, a **microbiome** is a complex ecosystem of microorganisms:
@@ -119,7 +118,9 @@ This is most often done for *bacterial communities* with sections of the DNA cod
    - The attraction of these bases forms secondary loop and hairpin structures.
    - Tertiary structure forms and combines with protein components of the ribosome to form an active unit.
 
-![Human Microbiome7](/images/ribosome.gif)
+<p align="center">
+  <img src="/images/ribosome.gif" alt="animated" width="600" height ="300" />
+</p>
    
    30S ribosome small subunit with *16S rRNA in orange* and a number of *purple proteins*. Source: wikipedia.com
 
@@ -568,14 +569,13 @@ Types of Sequences in QIIME2
    
 **Generally importing sequences will follow this format:**
 
-.. code-block:: bash
-
+```bash
    qiime tools import \
       --type XXX \ # The format of your sequence files
       --input-path XXX \ # The folder or manifest file where sequences are located
       --input-format XXX \ # Tell QIIME2 how to import the sequences properly
       --output-path XXX # Where the processed sequences should be saved
-     
+```  
 
 **Fastq Manifest Format**
 
@@ -626,15 +626,16 @@ sample-1,$PWD/some/filepath/sample1_R2.fastq,reverse
      
 Depending on your formats it will look something like:
 
-.. code-block:: bash
-   
-   # Example for Paired end with Phred 64
+
+   **Example for Paired end with Phred 64**
+  
+ ```bash
    qiime tools import \
      --type 'SampleData[PairedEndSequencesWithQuality]' \ # Change for paired/single end sequences
      --input-path my_manifest.txt \
      --output-path 1_0_input_seqs.qza \
      --input-format PairedEndFastqManifestPhred64 # Change for paired/single and phred format
-   
+```
 **Earth Microbiome Project format**
 
 This is a more specific format if you follow the EMP protocols and the sequencing center does as well
@@ -652,20 +653,21 @@ A good approach if your sequences are not demultiplexed (all samples sequences t
 
 Place these files in a folder (my_seqs/), and use that folder name as the --input-path argument:
 
-.. code-block:: bash
    
-   # Single End
+   **Single End**
+   ```bash
    qiime tools import \
      --type EMPSingleEndSequences \
      --input-path my_seqs \
      --output-path 1_0_input_seqs.qza
-
-   # Paired End
+```
+   **Paired End**
+   ```bash
    qiime tools import \
      --type EMPPairedEndSequences \
      --input-path my_seqs \
      --output-path 1_0_input_seqs.qza
-
+```
 
 **There are other options for inputting sequences**, check the `QIIME2 documentation <https://docs.qiime2.org/2018.8/tutorials/importing/>`_ if these don't fit your data
 
@@ -681,11 +683,11 @@ Importing, Demultiplexing, and Sequence Quality Control
 
 First lets take a look at the mapping file to understand how QIIME2 creates visuals
 
-.. code-block:: bash
-
+```bash
    qiime metadata tabulate \
      --m-input-file paired_end/metadata.tsv \
      --o-visualization paired_end/1_0_metadata_stats
+```
 
 This will output a file 1_0_metadata_stats.qzv
    - .qzv files are QIIME2's visualization files
@@ -696,9 +698,9 @@ This will output a file 1_0_metadata_stats.qzv
 	  
 **Let's see what we made** 
 
-.. code-block:: bash
-
+```bash
    qiime tools view paired_end/1_0_metadata_stats.qzv
+```
 
 **To import sequences and demultiplex...**
 
@@ -713,40 +715,49 @@ This will output a file 1_0_metadata_stats.qzv
 4. We will demultiplex the sequences 
 5. We will examine the distribution of sequences across each sample
 
-.. code-block:: bash
+
    
    
-   # See the files
+   **See the files**
+   ```bash
    ls -lsh paired_end/raw_seqs/
+   ```
    
-   # Import the files into QIIME2 format
+   **Import the files into QIIME2 format**
+   ```bash
    qiime tools import \
       --type EMPPairedEndSequences \
       --input-path paired_end/raw_seqs/ \
       --output-path paired_end/1_0_input_seqs.qza
-    
-   # See the new output file 
+ ```   
+   **See the new output file **
+     ```bash
    ls -lsh paired_end 
-   
-   # Demultiplex the sequences based on barcodes in mapping file
+   ```
+   **Demultiplex the sequences based on barcodes in mapping file**
+```bash
    qiime demux emp-paired \
       --m-barcodes-file paired_end/metadata.tsv \
       --m-barcodes-column BarcodeSequence \ 
       --i-seqs paired_end/1_0_input_seqs.qza \
       --o-per-sample-sequences paired_end/1_1_demultiplexed_seqs \
       --p-rev-comp-mapping-barcodes
-   
-   # See the new output file 
+```
+  **See the new output file**
+  ```bash  
    ls -lsh paired_end
-   
-   # Summarize the sequences per sample
+  ```
+   **Summarize the sequences per sample**
+     ```bash
    qiime demux summarize \
       --i-data paired_end/1_1_demultiplexed_seqs.qza \
       --o-visualization paired_end/1_2_demultiplexed_seqs_summary.qzv
-   
-   # Open the summary
+    ```
+   ** Open the summary**
+     ```bash
    qiime tools view paired_end/1_2_demultiplexed_seqs_summary.qzv
-
+   	```
+	
 Click the 'Interactive Quality Plot' tab to view Phred scores
 
 **QIIME2 has our sequences... now what?**
@@ -761,23 +772,28 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
 
 **Let's align the paired end sequences and then look at some summary info**
 
-.. code-block:: bash
-   
-   ##### JOIN PAIRED ENDS #####
+
+   **JOIN PAIRED ENDS **
+     ```bash
    qiime vsearch join-pairs \
       --i-demultiplexed-seqs paired_end/1_1_demultiplexed_seqs.qza \
       --o-joined-sequences paired_end/1_3_joined_seqs.qza
-     
-   # See the new output file 
+     ```
+   **See the new output file **
+     ```bash
    ls -lsh paired_end
+   ```
    
-   ##### SUMMARIZE JOINED SEQUENCES #####
+   **SUMMARIZE JOINED SEQUENCES **
+     ```bash
    qiime demux summarize \
       --i-data paired_end/1_3_joined_seqs.qza \
       --o-visualization paired_end/1_4_joined_summary
-
-   # VIEW THE RESULTS IN BROWSER #
+```
+   ** VIEW THE RESULTS IN BROWSER **
+     ```bash
    qiime tools view paired_end/1_4_joined_summary.qzv
+	```
 
 **Note how input and output files are named incrementally!**
    - This keeps them in order when you open in a folder
