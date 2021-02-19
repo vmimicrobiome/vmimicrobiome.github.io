@@ -4,7 +4,7 @@ Microbiome Introduction
 ![Human Microbiome](/images/microbiome_human.jpg)
 
 <p align="center">
-  <img src="/images/giphy.gif" alt="animated" />
+  <img src="/images/giphy.gif" alt="animated" width="600" height ="300" />
 </p>
 
 
