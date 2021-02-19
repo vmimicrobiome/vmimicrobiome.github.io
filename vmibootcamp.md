@@ -3,7 +3,9 @@ Microbiome Introduction
 
 ![Human Microbiome](/images/microbiome_human.jpg)
 
-![Human Microbiomex](/images/giphy.gif)
+<p align="center">
+  <img src="/images/giphy.gif" alt="animated" />
+</p>
 
 
 A **biome** is a complex ecosystem of biological organisms, often defined and shaped by a shared ecosystem.
