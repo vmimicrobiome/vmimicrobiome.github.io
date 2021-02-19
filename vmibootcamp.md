@@ -3,10 +3,6 @@ Microbiome Introduction
 
 ![Human Microbiome](/images/microbiome_human.jpg)
 
-<p align="center">
-  <img src="/images/giphy.gif" alt="animated" width="600" height ="300" />
-</p>
-
 
 A **biome** is a complex ecosystem of biological organisms, often defined and shaped by a shared ecosystem.
 
@@ -679,11 +675,9 @@ Importing, Demultiplexing, and Sequence Quality Control
 
 **Let's try it out with some example data!**
 
-
-
-![Human Microbiome23](/images/you_can.gif)
-
-   Source: giphy.com
+<p align="center">
+  <img src="/images/giphy.gif" alt="animated" width="600" height ="300" />
+</p>
 
 First lets take a look at the mapping file to understand how QIIME2 creates visuals
 
