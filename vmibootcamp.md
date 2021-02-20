@@ -608,6 +608,7 @@ sample-1,$PWD/some/filepath/sample1_R2.fastq,reverse
    Phred score encoding for 64 and 33. Source: https://www.drive5.com/usearch/manual/quality_score.html
 
 **Command options:**
+```
    -input-format
       - SingleEndFastqManifestPhred33
       - SingleEndFastqManifestPhred64
@@ -623,11 +624,11 @@ sample-1,$PWD/some/filepath/sample1_R2.fastq,reverse
      
    -output-path
       - Where QIIME2 will save the processed sequences in .qza format
-     
+  ```   
 Depending on your formats it will look something like:
 
 
-   **Example for Paired end with Phred 64**
+**Example for Paired end with Phred 64**
   
  ```bash
    qiime tools import \
@@ -654,14 +655,14 @@ A good approach if your sequences are not demultiplexed (all samples sequences t
 Place these files in a folder (my_seqs/), and use that folder name as the --input-path argument:
 
    
-   **Single End**
+**Single End**
    ```bash
    qiime tools import \
      --type EMPSingleEndSequences \
      --input-path my_seqs \
      --output-path 1_0_input_seqs.qza
 ```
-   **Paired End**
+**Paired End**
    ```bash
    qiime tools import \
      --type EMPPairedEndSequences \
@@ -717,9 +718,9 @@ This will output a file 1_0_metadata_stats.qzv
 
 
    
-   
-   **See the files**
-   ```bash
+**See the files**
+
+```bash
    ls -lsh paired_end/raw_seqs/
    ```
    
@@ -730,8 +731,8 @@ This will output a file 1_0_metadata_stats.qzv
       --input-path paired_end/raw_seqs/ \
       --output-path paired_end/1_0_input_seqs.qza
  ```   
-   **See the new output file **
-     ```bash
+   **See the new output file**
+   ```bash
    ls -lsh paired_end 
    ```
    **Demultiplex the sequences based on barcodes in mapping file**
@@ -764,7 +765,6 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
 
 **If they are paired end then we need to join them**
    - Aligns forward and reverse sequences
-   
 
 ![Human Microbiome24](/images/pe_quality.png)
 
@@ -773,24 +773,24 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
 **Let's align the paired end sequences and then look at some summary info**
 
 
-   **JOIN PAIRED ENDS **
-     ```bash
+   **JOIN PAIRED ENDS**
+```bash
    qiime vsearch join-pairs \
       --i-demultiplexed-seqs paired_end/1_1_demultiplexed_seqs.qza \
       --o-joined-sequences paired_end/1_3_joined_seqs.qza
-     ```
-   **See the new output file **
-     ```bash
+```
+   **See the new output file**
+```bash
    ls -lsh paired_end
    ```
    
    **SUMMARIZE JOINED SEQUENCES **
-     ```bash
+```bash
    qiime demux summarize \
       --i-data paired_end/1_3_joined_seqs.qza \
       --o-visualization paired_end/1_4_joined_summary
-```
-   ** VIEW THE RESULTS IN BROWSER **
+ ```
+   ** VIEW THE RESULTS IN BROWSER**
      ```bash
    qiime tools view paired_end/1_4_joined_summary.qzv
 	```
@@ -806,30 +806,35 @@ There are other ways to join reads, `here are some other read joining options <h
 
 .. code-block:: bash
 
-   ##### PERFORM QUALITY CONTROL BASED ON PHRED Q SCORES #####
+  **PERFORM QUALITY CONTROL BASED ON PHRED Q SCORES**
+```bash
    qiime quality-filter q-score-joined \
      --i-demux paired_end/1_3_joined_seqs.qza \
      --o-filtered-sequences paired_end/1_5_qc_seqs.qza \
      --o-filter-stats paired_end/1_6_qc_seqs_summary.qza
-   
-   #### SUMMARIZE JOINED SEQUENCES #####
+   ```
+   **SUMMARIZE JOINED SEQUENCES**
+  ```bash
    qiime demux summarize \
       --i-data paired_end/1_5_qc_seqs.qza \
       --o-visualization paired_end/1_7_qc_summary
-
-   # VIEW THE RESULTS IN BROWSER #
+```
+   **VIEW THE RESULTS IN BROWSER**
+ ```bash  
    qiime tools view paired_end/1_7_qc_summary.qzv
+```
 
 **Keep in mind there are often more options than just the ones I am showing here...**
 
 To view all of the parameters available in a QIIME2 script follow just the function call with --help
 
-.. code-block:: bash
-
-   # LIST ALL PARAMETERS FOR quality-filter q-score-joined SCRIPT #
+   **LIST ALL PARAMETERS FOR quality-filter q-score-joined SCRIPT**
+  ```bash
    qiime quality-filter q-score-joined --help
+```
 
 **For example here are all of the useful options for filtering by quality scores**
+```
 
   --i-demux ARTIFACT_PATH         The demultiplexed sequence data to be
                                   quality filtered.  [required]
@@ -855,6 +860,7 @@ To view all of the parameters available in a QIIME2 script follow just the funct
   --o-filter-stats ARTIFACT_PATH       Summary statistics of the filtering process. [required if not passing --output-dir]
   --output-dir DIRECTORY          Output unspecified results to a directory
 
+```
 
 Deblur - The New OTU
 ------------------------------------------------------------------
@@ -889,10 +895,11 @@ There are advantages and caveats to each, but they get very similar results for 
 
 **First let's decide where to trim our sequences... click the 'Interactive Quality Plot' tab**
 
-.. code-block:: bash
+```bash
 
    ##### INVESTIGATE THE QUALITY SCORE PLOT TO PICK TRIM LENGTHS BELOW #####
    qiime tools view paired_end/1_7_qc_summary.qzv
+```
 
 Note in the middle how the paired end overlap leads to higher Phred confidence!
 
@@ -904,26 +911,28 @@ There are many options for the next step, think about your situation
 
 **Deblur! Lets denoise our sequences into a feature table**
 
-.. code-block:: bash
 
-   ##### DEBLUR DENOISE DUPLICATE SEQUENCES AND CREATE OBSERVATIONS #####
-   qiime deblur denoise-16S \
+
+   **DEBLUR DENOISE DUPLICATE SEQUENCES AND CREATE OBSERVATIONS**   
+  ```bash
+  qiime deblur denoise-16S \
      --i-demultiplexed-seqs paired_end/1_5_qc_seqs.qza \
      --p-trim-length 240 \
      --o-representative-sequences paired_end/2_0_deblur_representative_seqs.qza \
      --o-table paired_end/2_1_deblur_table.qza \
      --p-sample-stats \
      --o-stats paired_end/2_2_deblur_stats.qza
-   
-   # See output files
+   ```
+   **See output files**
+   ```bash
    ls -lsh paired_end
+   ```
    
 *Deblur can take a while to run, for our purposes you can just move the output files from the extras folder*
 
 To cancel the run press ctrl-c
 
-.. code-block:: bash
-
+```bash
    # Remove any files if generated
    rm paired_end/2_*
    
@@ -935,7 +944,8 @@ To cancel the run press ctrl-c
    
    # See output files
    ls -lsh paired_end
-   
+
+```   
 **Now we have generated:**
 
    - Representative sequences: 2_0_deblur_representative_seqs.qza
@@ -1000,7 +1010,7 @@ Alignment into Amplicon Phylogeny
    3. Construct an unrooted phylogeny with FastTree
    4. Root the phylogeny at the tree's midpoint
 
-.. code-block:: bash
+```bash
 
    ##### CREATE ALIGNMENT OF REPRESENTATIVE SEQUENCES #####
    qiime alignment mafft \
@@ -1025,6 +1035,7 @@ Alignment into Amplicon Phylogeny
    # look at files
    ls -lsh paired_end 
 
+```
 
 Taxonomy Assignment
 ------------------------------------------------------------------
@@ -1043,7 +1054,7 @@ Taxonomy Assignment
    - Taxonomy Reference Table
       - Contains number of ribosomal DNA copies for each taxon
 	  
-.. code-block:: bash
+```bash
 
 ##### ASSIGN TAXONOMY #####
 # !!! SET PATH TO TAXONOMY REFERENCE !!! #
@@ -1061,6 +1072,7 @@ Taxonomy Assignment
       --input-format HeaderlessTSVTaxonomyFormat \
       --input-path "$greengenes_path"94_otu_taxonomy.txt \
       --output-path paired_end/greengenes_94_taxonomy.qza
+```
 
 **Next we will:**
    - Train a taxonomy classifier for our amplicon region in the reference database
@@ -1070,7 +1082,7 @@ Taxonomy Assignment
    - Apply the classifier to our 16S Amplicon Sequences
       - Each sequence is queried and taxonomy assigned to the closest confident level
 
-.. code-block:: bash
+```bash
 
 ### EXTRACT REFERENCE READS BASED ON PRIMERS AND TRIM LENGTH ###
    qiime feature-classifier extract-reads \
@@ -1092,16 +1104,18 @@ Taxonomy Assignment
       --i-reads paired_end/2_0_deblur_representative_seqs.qza \
       --o-classification paired_end/3_4_assigned_greengenes_94_taxonomy.qza
 
+```
+
 **Finally let's visualize our taxonomic assignment**
 
-.. code-block:: bash
-
+```bash
 ### MAKE TAXONOMY OUTPUT VISUALIZATION ###
    qiime metadata tabulate \
       --m-input-file paired_end/3_4_assigned_greengenes_94_taxonomy.qza \
       --o-visualization paired_end/3_5_taxonomy_visualization.qzv
    
    qiime tools view paired_end/3_5_taxonomy_visualization.qzv
+```
 
 ### Exporting QIIME Feature Tables
 In order to proceed with downstream analysis in [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca/), we will need to export our feature table, taxonomic assignments, and phylogenetic tree. We do this using the QIIME2 tools command.
