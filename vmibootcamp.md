@@ -221,7 +221,7 @@ Advantages and Disadvantages
         
    Most bacteria have two or more copies of rDNA in their genomes, which must be corrected for when counting totals. Source: researchgate.net
 
-    - Seeing DNA in a sample does not confirm that there are live microbes, just that their DNA was present.
+   _Seeing DNA in a sample does not confirm that there are live microbes, just that their DNA was present._
 
 
 Experimental Design and Sample Preparation
