@@ -1384,8 +1384,8 @@ Which brings us to some important notes:
 * MicrobiomeAnalyst (particularly the web-based version) is great for straight-forward analyses, but to go deeper you need to do the legwork.
 * Don't get caught presenting results you cannot explain thoroughly!
 **There are so many other options for analyses (including staying in QIIME2!), investigate but always use caution**
-* The mcirobiome field as we know it is ~15 years folder
-* Wild-west of statstics and assumptions, best practices are only starting to be enforced.
+* The microbiome field as we know it is only ~15 years old!
+* Consequently, it is the wild west of statstical assumptions, best practices are only starting to be enforced.
 
 ### Practice time!
 We want you to be comfortable analyzing your data (or data a collaborator sent you) in MicrobiomeAnalyst at the end of this workshop. So! We are going to break into groups and you will go through the MicrobiomeAnalyst workflow together with the Atacama Soils dataset. This dataset can be found in the practice_dataset folder. We borrowed this dataset from [a classic QIIME tutorial](https://docs.qiime2.org/2020.11/tutorials/atacama-soils/).
