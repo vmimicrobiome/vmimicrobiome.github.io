@@ -1325,7 +1325,7 @@ Microbiome ordination highlighting response to anti-PD-1 immunotherapy. Source: 
 ![Diagonal](/images/Diagonal.gif)
 
 * However, when we plot them on an ordination plot, we don't see this relationship
-  * The horseshoe effect can be due to distortions that occur during dimensionality reduction BUT in microbiome data it can also horseshoes can also signify microbial niches across environments.
+  * The horseshoe effect can be due to distortions that occur during dimensionality reduction *BUT* in microbiome data the horseshoe pattern can also signify the existance of microbial niches across environments.
   * Read more about that case [here](https://msystems.asm.org/content/2/1/e00166-16)
 ![Horseshoe](images/pca_horseshoe.gif)
 
