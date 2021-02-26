@@ -2,9 +2,8 @@
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
 
-Microbiome Introduction
-=======================
-
+Welcome to the Microbiome 
+-------------------------------------------------------------------------------------------------
 ![Human Microbiome](/images/microbiome_human.jpg)
 
 A **biome** is a complex ecosystem of biological organisms, often defined and shaped by a shared ecosystem.
