@@ -763,16 +763,16 @@ This will output a file 1_0_metadata_stats.qzv
   ```bash  
    ls -lsh paired_end
   ```
-   **Summarize the sequences per sample**
-     ```bash
+  **Summarize the sequences per sample**
+```bash
    qiime demux summarize \
       --i-data paired_end/1_1_demultiplexed_seqs.qza \
       --o-visualization paired_end/1_2_demultiplexed_seqs_summary.qzv
-    ```
-   ** Open the summary**
-     ```bash
+```
+   **Open the summary**
+```bash
    qiime tools view paired_end/1_2_demultiplexed_seqs_summary.qzv
-   	```
+```
 
 Click the 'Interactive Quality Plot' tab to view Phred scores
 
@@ -799,13 +799,13 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
    ls -lsh paired_end
    ```
 
-   **SUMMARIZE JOINED SEQUENCES **
+   **SUMMARIZE JOINED SEQUENCES**
 ```bash
    qiime demux summarize \
       --i-data paired_end/1_3_joined_seqs.qza \
       --o-visualization paired_end/1_4_joined_summary
  ```
-   ** VIEW THE RESULTS IN BROWSER**
+   **VIEW THE RESULTS IN BROWSER**
      ```bash
    qiime tools view paired_end/1_4_joined_summary.qzv
 	```
@@ -815,11 +815,9 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
    - Allows logic flow of code and files to align
    - Keeps everything organized when you may generate hundreds of files!!!
 
-There are other ways to join reads, `here are some other read joining options <https://docs.qiime2.org/2018.8/tutorials/read-joining/>`_.
+There are other ways to join reads, _[here are some other read joining options](https://docs.qiime2.org/2018.8/tutorials/read-joining)_.
 
-** Finally we should filter low quality sequences with Phred scores**
-
-.. code-block:: bash
+**Finally we should filter low quality sequences with Phred scores**
 
   **PERFORM QUALITY CONTROL BASED ON PHRED Q SCORES**
 ```bash
@@ -974,7 +972,7 @@ To cancel the run press ctrl-c
 
 **Let's look at the stats...**
 
-.. code-block:: bash
+```bash
 
    ##### DEBLUR VISUALIZE STATISTICS #####
    qiime deblur visualize-stats \
@@ -982,10 +980,10 @@ To cancel the run press ctrl-c
       --o-visualization paired_end/2_3_deblur_stats_summary.qzv
 
    qiime tools view paired_end/2_3_deblur_stats_summary.qzv
-
+```
 **And summarize the table...**
 
-.. code-block:: bash
+```bash
 
    ##### DEBLUR SUMMARIZE TABLE #####
    qiime feature-table summarize \
@@ -994,10 +992,10 @@ To cancel the run press ctrl-c
       --m-sample-metadata-file paired_end/metadata.tsv
 
    qiime tools view paired_end/2_4_deblur_table_summary.qzv
-
+```
 **And look at the representative sequences...**
 
-.. code-block:: bash
+```bash
 
    ##### DEBLUR SUMMARIZE SEQUENCES #####
    qiime feature-table tabulate-seqs \
@@ -1005,7 +1003,7 @@ To cancel the run press ctrl-c
       --o-visualization paired_end/2_5_deblur_representative_seqs_summary.qzv
 
    qiime tools view paired_end/2_5_deblur_representative_seqs_summary.qzv
-
+```
 **Neat! Well done!**
 
 Alignment into Amplicon Phylogeny
