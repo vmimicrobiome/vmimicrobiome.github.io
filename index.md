@@ -4,7 +4,6 @@
 
 Introducing the Microbiome 
 -------------------------------------------------------------------------------------------------
-![Human Microbiome](/images/microbiome_human.jpg)
 
 A **biome** is a complex ecosystem of biological organisms, often defined and shaped by a shared ecosystem.
 
@@ -346,8 +345,9 @@ Sampling and Controls
 
 **If working with human subjects:**
 
-![Human Microbiome12](/images/microbe_human_teddy.gif)
-
+<p align="center">
+  <img src="images/microbe_human_teddy.gif" alt="animated" width="600" height ="300" />
+</p>
    Source: Charis Tsevis
 
    - Consider ease of self-collection
