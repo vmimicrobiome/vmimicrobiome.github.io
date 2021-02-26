@@ -688,7 +688,8 @@ Place these files in a folder (my_seqs/), and use that folder name as the --inpu
      --output-path 1_0_input_seqs.qza
 ```
 
-**There are other options for inputting sequences**, check the `QIIME2 documentation <https://docs.qiime2.org/2018.8/tutorials/importing/>`_ if these don't fit your data
+**There are other options for inputting sequences** : 
+check the [QIIME2 documentation](https://docs.qiime2.org/2018.8/tutorials/importing/) if these don't fit your data
 
 
 Importing, Demultiplexing, and Sequence Quality Control
