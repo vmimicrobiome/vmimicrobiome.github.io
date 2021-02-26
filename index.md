@@ -2,7 +2,7 @@
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
 
-**Microbiome Introduction**
+Microbiome Introduction
 =======================
 
 ![Human Microbiome](/images/microbiome_human.jpg)
