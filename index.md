@@ -827,7 +827,7 @@ There are other ways to join reads, _[here are some other read joining options](
 
   **PERFORM QUALITY CONTROL BASED ON PHRED Q SCORES**
 ```bash
-   qiime quality-filter q-score-joined \
+   qiime quality-filter q-score \
      --i-demux paired_end/1_3_joined_seqs.qza \
      --o-filtered-sequences paired_end/1_5_qc_seqs.qza \
      --o-filter-stats paired_end/1_6_qc_seqs_summary.qza
@@ -849,7 +849,7 @@ To view all of the parameters available in a QIIME2 script follow just the funct
 
    **LIST ALL PARAMETERS FOR quality-filter q-score-joined SCRIPT**
   ```bash
-   qiime quality-filter q-score-joined --help
+   qiime quality-filter q-score --help
 ```
 
 **For example here are all of the useful options for filtering by quality scores**
