@@ -959,7 +959,7 @@ To cancel the run press ctrl-c
    ls -lsh paired_end
 
    # Move the files
-   cp paired_end/extras/* paired_end/
+   cp -r paired_end/"extras-main"/* paired_end/
 
    # See output files
    ls -lsh paired_end
