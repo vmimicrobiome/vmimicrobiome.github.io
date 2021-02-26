@@ -545,7 +545,7 @@ They can be displayed in a couple ways.
 
 **A second way you may find you files is a fastq file**
 
-![Human Microbiome19](/images/phred_score.png)/images/fastq_format.png)
+![Human Microbiome19](/images/fastq_format.png)
 
    Fastq file format
 
