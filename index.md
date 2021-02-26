@@ -930,9 +930,9 @@ There are many options for the next step, think about your situation
 
 **Deblur! Lets denoise our sequences into a feature table**
 
-**Deblur can take a while to run, for our purposes we can download the finished output files from the [extras](https://github.com/vmimicrobiome/extras) folder, and move it into the paired_end folder,and unzip it.**
+**Deblur can take a while to run, for our purposes we can download the finished output files from the [extras](https://github.com/vmimicrobiome/extras) folder, move it into the paired_end folder, and unzip it.**
 
-**Later on your own, these commands will produce the included Deblur files**  
+**These commands can be used on your own to produce the downstream Deblur files:**  
 
    **DEBLUR DENOISE DUPLICATE SEQUENCES AND CREATE OBSERVATIONS**   
   ```bash
