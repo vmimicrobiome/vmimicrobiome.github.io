@@ -762,6 +762,7 @@ This will output a file 1_0_metadata_stats.qzv
       --i-seqs paired_end/1_0_input_seqs.qza \
       --o-per-sample-sequences paired_end/1_1_demultiplexed_seqs \
       --p-rev-comp-mapping-barcodes
+      --output-dir paired_end/log_files
 ```
   **See the new output file**
   ```bash  
