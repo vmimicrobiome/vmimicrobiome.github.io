@@ -1087,7 +1087,7 @@ Taxonomy Assignment
    qiime tools import \
       --type 'FeatureData[Taxonomy]' \
       --input-format HeaderlessTSVTaxonomyFormat \
-      --input-path "$greengenes_path"94_otu_taxonomy.txt \
+      --input-path greengenes/94_otu_taxonomy.txt \
       --output-path paired_end/greengenes_94_taxonomy.qza
 ```
 
