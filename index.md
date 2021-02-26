@@ -1164,9 +1164,9 @@ Finally, we need to export the phylogenetic tree for downstream phylogenetic ana
 qiime tools export --input-path paired_end/3_3_deblur_tree.qza \
   --output-path paired_end/rooted_tree.tre
 ```
-# Concepts of Community Analysis 
+**Concepts of Community Analysis**
 
-**How can we examine microbial communities?**
+*How can we examine microbial communities?*
 
 Let's switch datasets and look at: [The American Gut Project (AGP)](https://microsetta.ucsd.edu/about/american-gut-project/)
 
