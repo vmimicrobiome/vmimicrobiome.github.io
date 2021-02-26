@@ -806,16 +806,17 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
       --o-visualization paired_end/1_4_joined_summary
  ```
    **VIEW THE RESULTS IN BROWSER**
-     ```bash
+
+```bash
    qiime tools view paired_end/1_4_joined_summary.qzv
-	```
+ ```
 
 **Note how input and output files are named incrementally!**
    - This keeps them in order when you open in a folder
    - Allows logic flow of code and files to align
    - Keeps everything organized when you may generate hundreds of files!!!
 
-There are other ways to join reads, _[here are some other read joining options](https://docs.qiime2.org/2018.8/tutorials/read-joining)_.
+There are other ways to join reads, _[here are some other read joining options](https://docs.qiime2.org/2018.8/tutorials/read-joining/)_.
 
 **Finally we should filter low quality sequences with Phred scores**
 
