@@ -1140,7 +1140,7 @@ In order to proceed with downstream analysis in [MicrobiomeAnalyst](https://www.
 
 Feature tables and taxonomy are exported in [BIOM format](https://biom-format.org/).
 ```bash
-qiime tools export --input-path paired_end/2_1_dada2_table.qza \
+qiime tools export --input-path paired_end/2_1_deblur_table.qza \
   --output-path paired_end/exported
 qiime tools export --input-path paired_end/3_4_assigned_greengenes_94_taxonomy.qza \
   --output-path paired_end/exported
@@ -1162,10 +1162,10 @@ biom add-metadata -i paired_end/exported/feature-table.biom -o /paired_end/table
 ```
 Finally, we need to export the phylogenetic tree for downstream phylogenetic analyses.
 ```bash
-qiime tools export --input-path paired_end/3_3_dada2_tree.qza \
+qiime tools export --input-path paired_end/3_3_deblur_tree.qza \
   --output-path paired_end/rooted_tree.tre
 ```
-Concepts of Community Analysis
+*Concepts of Community Analysis*
 ================================
 **How can we examine microbial communities?**
 
