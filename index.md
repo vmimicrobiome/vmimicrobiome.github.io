@@ -1,4 +1,9 @@
-Microbiome Introduction
+# Welcome to the VMI Microbiome Boot Camp II!
+![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
+
+
+
+**Microbiome Introduction**
 =======================
 
 ![Human Microbiome](/images/microbiome_human.jpg)
