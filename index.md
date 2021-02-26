@@ -1157,8 +1157,7 @@ Change the first line of the header in the biom-taxonomy.tsv file to read:
 
 Now we can add the taxonomy to the .biom file .
 ```bash
-biom add-metadata -i paired_end/exported/feature-table.biom -o /paired_end/table-with-taxonomy.biom \
-  --observation-metadata-fp paired_end/exported/biom-taxonomy.tsv --sc-separated taxonomy
+  biom add-metadata -i paired_end/exported/feature-table.biom -o paired_end/table-with-taxonomy.biom --observation-metadata-fp paired_end/exported/biom-taxonomy.tsv --sc-separated taxonomy
 ```
 Finally, we need to export the phylogenetic tree for downstream phylogenetic analyses.
 ```bash
@@ -1166,7 +1165,7 @@ qiime tools export --input-path paired_end/3_3_deblur_tree.qza \
   --output-path paired_end/rooted_tree.tre
 ```
 *Concepts of Community Analysis*
-================================
+==============================================
 **How can we examine microbial communities?**
 
 Let's switch datasets and look at: [The American Gut Project (AGP)](https://microsetta.ucsd.edu/about/american-gut-project/)
