@@ -930,7 +930,9 @@ There are many options for the next step, think about your situation
 
 **Deblur! Lets denoise our sequences into a feature table**
 
+**Deblur can take a while to run, for our purposes we can download the finished output files from the [extras](https://github.com/vmimicrobiome/extras) folder, and move it into the paired_end folder,and unzip it.**
 
+**Later on your own, these commands will produce the included Deblur files**  
 
    **DEBLUR DENOISE DUPLICATE SEQUENCES AND CREATE OBSERVATIONS**   
   ```bash
@@ -942,28 +944,24 @@ There are many options for the next step, think about your situation
      --p-sample-stats \
      --o-stats paired_end/2_2_deblur_stats.qza
    ```
-   **See output files**
-   ```bash
-   ls -lsh paired_end
-   ```
 
-**Deblur can take a while to run, for our purposes we can download the finished output files from the [extras](https://github.com/vmimicrobiome/extras) folder, and move it into the paired_end folder, and unzip it.**  
-
-To cancel the run press ctrl-c
-
+**Let's clean up these files now**
+ 
 ```bash
-   # Remove any files if generated
-   rm paired_end/2_*
-
    # See current files
    ls -lsh paired_end
-
+```
+```bash
    # Move the files
    cp -r paired_end/"extras-main"/* paired_end/
-
+  ```
+  ```bash
+   # Remove the extras folder
+   rm -r paired_end/"extras-main"/
+```
+```bash
    # See output files
    ls -lsh paired_end
-
 ```   
 **Now we have generated:**
 
