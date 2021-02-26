@@ -947,7 +947,7 @@ There are many options for the next step, think about your situation
    ls -lsh paired_end
    ```
 
-*Deblur can take a while to run, for our purposes you can just move the output files from the extras folder*
+**Deblur can take a while to run, for our purposes we can download the finished output files from the [extras](https://github.com/vmimicrobiome/extras) folder, and move it into the paired_end folder, and unzip it.**  
 
 To cancel the run press ctrl-c
 
