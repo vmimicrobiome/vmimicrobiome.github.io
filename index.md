@@ -346,7 +346,7 @@ Sampling and Controls
 **If working with human subjects:**
 
 <p align="center">
-  <img src="images/microbe_human_teddy.gif" alt="animated" width="600" height ="300" />
+  <img src="images/microbe_human_teddy.gif" alt="animated" />
 </p>
    Source: Charis Tsevis
 
