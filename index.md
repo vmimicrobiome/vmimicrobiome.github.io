@@ -953,7 +953,7 @@ There are many options for the next step, think about your situation
 ```
 ```bash
    # Move the files
-   cp -r paired_end/"extras-main"/* paired_end/
+   cp -r paired_end/"extras-main"/extras/* paired_end/
   ```
   ```bash
    # Remove the extras folder
