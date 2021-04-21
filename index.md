@@ -1,6 +1,6 @@
-## Welcome to the VMI Microbiome Boot Camp II Preview!
+## Welcome to the VMI Microbiome Boot Camp III Preview!
 
-**This page will help prepare you for the VMI Microbiome Boot Camp II**
+**This page will help prepare you for the VMI Microbiome Boot Camp III**
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
 
@@ -38,7 +38,7 @@ This is code that you can copy and paste!
 
 1) The main thing we need to do to be prepared for the Boot Camp is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
 
-**If you're not able to get Qiime2 running then make a zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM until the 26th.**
+**If you're not able to get Qiime2 running then make a zoom appointment with the [VMI team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM.**
 
 2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the Boot Camp by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the three folders in it (**american_gut** AND **paired_end** AND **practice_dataset**) onto your Desktop. 
 
@@ -47,7 +47,7 @@ This is code that you can copy and paste!
 
 4) Take the [pre-course survey](https://www.surveymonkey.com/r/L9DPD6H)!
 
-At 9AM CST on Friday, February 26th this page will magically update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the zoom session.
+At 9AM CST on Monday, May 17th this page will update so all you have to do is return here in the morning and you will find all of the content for the boot camp and an zoom invite in your inbox to attend the zoom session.
 
 ---
 ### That's all for now, microbe hunters! We'll see you soon! 
