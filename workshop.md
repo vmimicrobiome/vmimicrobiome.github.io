@@ -700,6 +700,13 @@ Place these files in a folder (my_seqs/), and use that folder name as the --inpu
 **There are other options for inputting sequences** :
 check the [QIIME2 documentation](https://docs.qiime2.org/2021.4/tutorials/importing/) if these don't fit your data
 
+Sampling the Mouse Microbiome
+------------------------------------------------------------------
+The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease. 
+
+Please find the presentation being shared by Dr. Byndloss avialable for download [here](). 
+
+
 
 Importing and Demultiplexing
 ------------------------------------------------------------------
