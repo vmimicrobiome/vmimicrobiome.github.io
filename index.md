@@ -712,10 +712,10 @@ Please find the presentation being shared by Dr. Byndloss available for download
 
 
 
-Importing and Demultiplexing
+Now let's get to work and try it on some example data!!!
 ------------------------------------------------------------------
 
-**Let's try it out with some example data!**
+**Importing and Demultiplexing**
 
 <p align="center">
   <img src="/images/giphy.gif" alt="animated" width="600" height ="300" />
