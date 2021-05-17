@@ -261,7 +261,7 @@ It is particularly important to consider the details of your study before you st
 * Cannot add samples later
 * Cannot remove contamination after samples are collected
 * Cannot add controls necessary to validate quality after sequencing
-* Cannot remove bias if other factors very with treatment of interest
+* Cannot remove bias if other factors vary with treatment of interest
 * Cannot get more microbial DNA if host DNA dominates
 
 
