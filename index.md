@@ -1071,8 +1071,6 @@ Taxonomy Assignment
 
 ```
 
-We did it....but why are some confidence scores greater than 1?!? Did we break statistics? It turns out these are rounding errors and can safely be considered to be ~1 or 100% confidence. Want to know more. Read [this](https://forum.qiime2.org/t/confidence-intervals-greater-than-1-in-custom-classifier/15014/5)
-
 **Finally let's visualize our taxonomic assignment**
 
 ```bash
@@ -1083,6 +1081,11 @@ We did it....but why are some confidence scores greater than 1?!? Did we break s
 
    qiime tools view paired_end/3_5_taxonomy_visualization.qzv
 ```
+
+We did it!!!!
+
+....but why are some confidence scores greater than 1?!? Did we break statistics? It turns out these are rounding errors and can safely be considered to be ~1 or 100% confidence. Want to know more. Read [this](https://forum.qiime2.org/t/confidence-intervals-greater-than-1-in-custom-classifier/15014/5)
+
 
 Exporting QIIME Feature Tables
 ----------------------------------
