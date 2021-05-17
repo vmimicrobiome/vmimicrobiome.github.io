@@ -1026,14 +1026,11 @@ Taxonomy Assignment
       - Contains number of ribosomal DNA copies for each taxon
 
 ```bash
-##### ASSIGN TAXONOMY #####
-# !!! SET PATH TO TAXONOMY REFERENCE !!! #
-   greengenes_path=greengenes/
 
 ### IMPORT TAXONOMY REFERENCE SEQUENCES ###
    qiime tools import \
       --type 'FeatureData[Sequence]' \
-      --input-path "$greengenes_path"94_otus.fasta \
+      --input-path greengenes/94_otus.fasta \
       --output-path paired_end/greengenes_94_otus.qza
 
 ### IMPORT TAXONOMY REFERENCE TABLE ###
