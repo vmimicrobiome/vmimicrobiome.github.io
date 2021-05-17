@@ -992,7 +992,7 @@ Alignment into Amplicon Phylogeny
    3. Construct an unrooted phylogeny with FastTree
    4. Root the phylogeny at the tree's midpoint
 
-QIIME2 has individual commands that perform each of these steps, but also has a helpful builtin pipeline that runs all of htem with a single command.
+QIIME2 has individual commands that perform each of these steps, but also has a helpful builtin pipeline that runs all of them with a single command.
 
 ```bash
 ##### ALIGN REPRESENTATIVE SEQUENCES, MASK NOISY POSITIONS, CREATE PHYLOGENY, ROOT PHYLOGENY AT MIDPOINT #####
