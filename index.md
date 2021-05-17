@@ -517,6 +517,17 @@ For more detailed information check out the full [QIIME2 Metadata Guide!](https:
    - I'd stick to all lower-case (case insensitive) characters
       - Not required, but may save you a *lot* of trouble with weird errors later on!
 
+Sampling the Mouse Microbiome
+==================================================================
+<p align="center">
+  <img src="/images/giphy2.gif" alt="animated" width="600" height ="300" />
+</p>
+
+The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease. 
+
+Please find the presentation being shared by Dr. Byndloss available for download [here](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/Presentation_Bootcamp%202021.pdf) and an excellent article on *best practices for analysing microbiomes* [right here!](https://pubmed.ncbi.nlm.nih.gov/29795328/)
+
+
 From Sequences to Community Composition
 =================================================================
 
@@ -699,17 +710,6 @@ Place these files in a folder (my_seqs/), and use that folder name as the --inpu
 
 **There are other options for inputting sequences** :
 check the [QIIME2 documentation](https://docs.qiime2.org/2021.4/tutorials/importing/) if these don't fit your data
-
-Sampling the Mouse Microbiome
-------------------------------------------------------------------
-<p align="center">
-  <img src="/images/giphy2.gif" alt="animated" width="600" height ="300" />
-</p>
-
-The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease. 
-
-Please find the presentation being shared by Dr. Byndloss available for download [here](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/Presentation_Bootcamp%202021.pdf) and an excellent article on *best practices for analysing microbiomes* [right here!](https://pubmed.ncbi.nlm.nih.gov/29795328/)
-
 
 
 Now let's get to work and try it on some example data!!!
