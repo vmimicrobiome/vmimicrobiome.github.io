@@ -1407,4 +1407,4 @@ That's all for today. Go forth and do the microbiome science!
   <img src="/images/giphy3.gif" alt="animated" width="600" height ="300" />
 </p>
 
-Please take a few minutes to complete a post-workshop survey [here](https://www.surveymonkey.com/r/R9CHW6Y) when you have time. This link will be activate for the next *7* days (and we will e-mail you a reminder as well). Your feedback will help us guage how well we presented the materials to you today and update our workshops for future offerings. 
+**Please take a few minutes to complete a post-workshop survey [here](https://www.surveymonkey.com/r/R9CHW6Y) when you have time. This link will be activate for the next *7* days (and we will e-mail you a reminder as well). Your feedback will help us guage how well we presented the materials to you today and update our workshops for future offerings.**
