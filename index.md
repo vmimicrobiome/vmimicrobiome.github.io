@@ -1400,7 +1400,7 @@ We want you to be comfortable analyzing your data (or data a collaborator sent y
 4. Are any features differentially abundant based on any metadata categories? Do the different methods agree?
 
 
-That's all for today. Go forth and do the microbiome science!
+We've reached the end of today's workshop. Go forth and do the microbiome science!
 =======================================
 
 <p align="center">
