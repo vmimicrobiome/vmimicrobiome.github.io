@@ -1026,7 +1026,6 @@ Taxonomy Assignment
       - Contains number of ribosomal DNA copies for each taxon
 
 ```bash
-
 ### IMPORT TAXONOMY REFERENCE SEQUENCES ###
    qiime tools import \
       --type 'FeatureData[Sequence]' \
@@ -1050,7 +1049,6 @@ Taxonomy Assignment
       - Each sequence is queried and taxonomy assigned to the closest confident level
 
 ```bash
-
 ### EXTRACT REFERENCE READS BASED ON PRIMERS AND TRIM LENGTH ###
    qiime feature-classifier extract-reads \
       --i-sequences paired_end/greengenes_94_otus.qza \
@@ -1072,6 +1070,8 @@ Taxonomy Assignment
       --o-classification paired_end/3_4_assigned_greengenes_94_taxonomy.qza
 
 ```
+
+We did it....but why are some confidence scores greater than 1?!? Did we break statistics? It turns out these are rounding errors and can safely be considered to be ~1 or 100% confidence. Want to know more. Read [this](https://forum.qiime2.org/t/confidence-intervals-greater-than-1-in-custom-classifier/15014/5)
 
 **Finally let's visualize our taxonomic assignment**
 
@@ -1116,8 +1116,8 @@ Finally, we need to export the phylogenetic tree for downstream phylogenetic ana
     --output-path paired_end/rooted_tree.tre
 ```
 
-
-**Concepts of Community Analysis**
+Concepts of Community Analysis
+=====================================
 
 *How can we examine microbial communities?*
 
