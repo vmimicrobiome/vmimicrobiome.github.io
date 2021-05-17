@@ -1398,3 +1398,8 @@ We want you to be comfortable analyzing your data (or data a collaborator sent y
 2. Can you visually identify any taxonomic differences between transects or based on other metadata categories?
 3. How does vegetation presence (or other metadata categories) affect alpha and beta diversity of the soil microbes?
 4. Are any features differentially abundant based on any metadata categories? Do the different methods agree?
+
+
+Now's your chance to tell us what you've learned and how we did. 
+---------------------------------------------------------
+Please take a couple minutes to complete this post-workshop survey [here](https://www.surveymonkey.com/r/R9CHW6Y) when you have time. This link will be activate for the next *7* days (and we will e-mail you a reminder as well). Your feedback will help us guage how well we presented the materials to you today and update our workshops for future offerings. 
