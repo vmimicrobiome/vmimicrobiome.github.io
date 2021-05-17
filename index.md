@@ -1144,7 +1144,7 @@ We are moving from QIIME2 into an web-based graphic user interface (GUI) for dat
 
 * Ease of use - GUIs are more user friendly than command line code
 * Integration of multiple different programs
-  * QIIME2 is one of 16S analysis programs, MicrobiomeAnalyst pulls in analyses from multiple
+  * QIIME2 is one of many 16S analysis programs, MicrobiomeAnalyst pulls in analyses from multiple
   * Shotgun metagenomic data analysis options
 * Written in R
   * For those of you familiar with R, you can export the MicrobiomeAnalyst code and customize the analysis or graphs
