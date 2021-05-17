@@ -708,7 +708,7 @@ Sampling the Mouse Microbiome
 
 The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease. 
 
-Please find the presentation being shared by Dr. Byndloss available for download [here](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/Presentation_Bootcamp%202021.pdf) and an excellent article on ~best practices for analysing microbiomes~ here] (https://pubmed.ncbi.nlm.nih.gov/29795328/)
+Please find the presentation being shared by Dr. Byndloss available for download [here](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/Presentation_Bootcamp%202021.pdf) and an excellent article on *best practices for analysing microbiomes* [here] (https://pubmed.ncbi.nlm.nih.gov/29795328/)
 
 
 
