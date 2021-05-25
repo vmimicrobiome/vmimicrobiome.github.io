@@ -100,10 +100,6 @@ In *amplicon sequencing*, one gene shared by all microorganisms of interest is a
 
 This is most often done for *bacterial communities* with sections of the DNA coding region of **16S Ribosomal RNA**.
 
-
-
-   Secondary hairpin structure of 16S rRNA. Source: rna.ucsc.edu
-
 **16S rRNA Structure**
 
 * The RNA component of bacteria ribosomes forms bonds between nucleotide bases.
@@ -203,16 +199,11 @@ Advantages and Disadvantages
 
 
 
-
 * 16S rRNA gene copy number can vary by an order of magnitude between bacterial species.
   * The databases try to correct for this, but it's not perfect.
   * This means there is some bias in the relative abundance of members.
   * 16S rt-qPCR can be used to quantify the total number of 16S rRNA genes in your sample or the number of 16S rRNA genes for a specific taxonomic group of bacteria.
 
-
-
-
-   Most bacteria have two or more copies of rDNA in their genomes, which must be corrected for when counting totals. Source: researchgate.net
 
    _Seeing DNA in a sample does not confirm that there are live microbes, just that their DNA was present._
 
@@ -279,9 +270,6 @@ Sampling and Controls
     * Need DNA *and* RNA
     * Other 'omics - *i.e. mass spectrometry affected by salt concentration, SCFA metabolites interact with ethanol*
 
-![Human Microbiome12](/images/genotech_tube.jpg)
-
-   Source: www.dnagenotek.com
 
 * **Storage**
   * Immediate storage -80C > Storage at -20C > Storage at room temperature in >90% ethanol
@@ -408,7 +396,6 @@ FWD:  AATGATACGGCGACCACCGAGATCTACACGCT XXXXXXXXXXXX  TATGGTAATT GT      GTGYCAGC
 Sequencing Platforms
 ------------------------------------------------------------------
 
-
 **Illumina MiSeq**
 
    - By far the most widely used sequencing method for 16S rRNA gene amplicon sequencing
@@ -484,9 +471,6 @@ For more detailed information check out the full [QIIME2 Metadata Guide!](https:
 
 Sampling the Mouse Microbiome
 ==================================================================
-<p align="center">
-  <img src="/images/giphy2.gif" alt="animated" width="600" height ="300" />
-</p>
 
 The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease. 
 
@@ -932,11 +916,6 @@ There are many options for the next step, think about your situation
 
 Alignment into Amplicon Phylogeny
 ------------------------------------------------------------------
-
-
-![Human Microbiome26](/images/16s_phylogeny.png)
-
-   Example phylogeny. Source: Rob Onyenwoke *et. al.* doi: 10.1007/s00203-004-0696-y
 
 **A phylogeny depicts the genetic relatedness between each of our amplicons**
    - Used for diversity metrics incorporating genetic relatedness of features
