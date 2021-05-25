@@ -1,4 +1,4 @@
-# Welcome to the VMI Microbiome Boot Camp III!
+# Welcome to the VMI Microbiome Tutorial!
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
 
@@ -14,10 +14,6 @@ Therefore, a **microbiome** is a complex ecosystem of microorganisms:
 * Archaea
 * Viruses and Phages
 
-
-![Human Microbiome2](/images/microbial_community.jpg)
-
-   Scanning electron image of a complex microbial community. *Colors are artificial.* Source: https://www.newscientist.com
 
 **There are very few places on earth where microbiomes do not exist**
 
@@ -66,17 +62,12 @@ Within the research community however there is more nuance (but microbiome is st
   * Most often examined with targeted or untargeted mass spectrometry.
   * *How are their actions shape the abiotic and biotic environment?*
 
-![Human Microbiome3](/images/nesting_dolls.gif)
 
-   Like a nesting doll family, there are many layers that can each tell their own part of the story. Source: Giphy.communities
 
 
 The Human Microbiome
 -------------------------------------------------------------------------------------------------
 
-![Human Microbiome3](/images/microbe_human2.jpg)
-
-   What are the biomes of microbes on and inside the human body? Source: http://microbeminded.com/
 
 
 **It is estimated that there are roughly the same number of human and microbial cells in your body!**
@@ -86,16 +77,10 @@ The Human Microbiome
 * Microbiome diversity of 10 million+ unique genes, outnumbering our genetic repertoire 500:1.
 * Vast majority are along digestive tract, but skin and vagina have unique communities as well.
 
-![Human Microbiome4](/images/human_vs_microbial_cells.png)
-
-   Estimating counts and mass of cells in the human body. Source: Sender, R. et al. *PLoS Biology*. 2016.
 
 
 **While highly abundant, microbes are much smaller than human cells.**
 
-![Human Microbiome5](/images/microbe_size.png)
-
-   Most microbes are 10-100x smaller than human cells (*same size as mitochondria*). Source: https://courses.candelalearning.com
 
 16S Ribosomal DNA and Phylogenetic Markers
 ------------------------------------------
@@ -115,7 +100,7 @@ In *amplicon sequencing*, one gene shared by all microorganisms of interest is a
 
 This is most often done for *bacterial communities* with sections of the DNA coding region of **16S Ribosomal RNA**.
 
-![Human Microbiome6](/images/16s_structure.jpg)
+
 
    Secondary hairpin structure of 16S rRNA. Source: rna.ucsc.edu
 
@@ -125,11 +110,6 @@ This is most often done for *bacterial communities* with sections of the DNA cod
 * The attraction of these bases forms secondary loop and hairpin structures.
 * Tertiary structure forms and combines with protein components of the ribosome to form an active unit.
 
-<p align="center">
-  <img src="/images/ribosome.gif" alt="animated" width="600" height ="300" />
-</p>
-
-   30S ribosome small subunit with *16S rRNA in orange* and a number of *purple proteins*. Source: wikipedia.com
 
 **This is a useful gene because:**
 
@@ -140,7 +120,6 @@ This is most often done for *bacterial communities* with sections of the DNA cod
 * For this reason it is slow evolving, particularly in regions important to the overall structure.
 * Thus it has regions that are more conserved and regions that are more variable (*evolutionary changes accrue more quickly*).
 
-![Human Microbiome8](/images/16s_variable_regions.jpg)
 
 
    Nine variable regions are each separated by highly conserved regions. Source: biology.stackexchange.com
@@ -222,9 +201,7 @@ Advantages and Disadvantages
   * Really cannot confidently distinguish species or strains within a genus.
   * Newer primers for longer amplification regions (e.g., 16S V4-V5) allow for species-level resolution, but still not strain-level resolution
 
-![Human Microbiome9](/images/amplicon_alignment.png)         
 
-Aligning short reads means there may be very few differences to distinguish related taxa. Source: nature.com
 
 
 * 16S rRNA gene copy number can vary by an order of magnitude between bacterial species.
@@ -232,7 +209,7 @@ Aligning short reads means there may be very few differences to distinguish rela
   * This means there is some bias in the relative abundance of members.
   * 16S rt-qPCR can be used to quantify the total number of 16S rRNA genes in your sample or the number of 16S rRNA genes for a specific taxonomic group of bacteria.
 
-![Human Microbiome10](/images/rrna_copy_number.png)
+
 
 
    Most bacteria have two or more copies of rDNA in their genomes, which must be corrected for when counting totals. Source: researchgate.net
@@ -265,9 +242,7 @@ It is particularly important to consider the details of your study before you st
 * Cannot get more microbial DNA if host DNA dominates
 
 
-![Human Microbiome11](/images/experimental_design_flaw.jpg)
 
-   Source: Aaron Bacall Source: www.art.com
 
 
 **Start with a question and hypothesis.**
@@ -351,10 +326,6 @@ Sampling and Controls
 
 **If working with human subjects:**
 
-<p align="center">
-  <img src="images/microbe_human_teddy.gif" alt="animated" />
-</p>
-   Source: Charis Tsevis
 
    - Consider ease of self-collection
    - Different body sites have very different communities
@@ -368,9 +339,6 @@ Sampling and Controls
       - Cannot control amount provided if self-collection
 	  - Must stablize to prevent bacterial overgrowth, or 'blooms'
 
-![Human Microbiome13](/images/genotech_sampling.png)
-
-   Source: www.dnagenotek.com
 
 DNA Extraction
 ------------------------------------------------------------------
@@ -440,9 +408,6 @@ FWD:  AATGATACGGCGACCACCGAGATCTACACGCT XXXXXXXXXXXX  TATGGTAATT GT      GTGYCAGC
 Sequencing Platforms
 ------------------------------------------------------------------
 
-![Human Microbiome14](/images/illumina_theory.png)
-
-   Illumina sequencing molecular biology Source: Jaroslaw Grzadziel (Research Gate)
 
 **Illumina MiSeq**
 
@@ -587,9 +552,6 @@ Types of Sequences in QIIME2
 
 **How do you make QIIME2 aware of your sequences and mapping file?**
 
-![Human Microbiome20](/images/multiplexing.jpg)
-
-   Source: Martha Park - Institute for Quantitative & Computational Biosciences Workshop
 
    - **QIIME2 must import all data files and convert them**
       - They become custom QIIME2 format files
@@ -717,9 +679,6 @@ Now let's get to work and try it on some example data!!!
 
 **Importing and Demultiplexing**
 
-<p align="center">
-  <img src="/images/giphy.gif" alt="animated" width="600" height ="300" />
-</p>
 
 First lets take a look at the mapping file to understand how QIIME2 creates visuals
 
@@ -805,9 +764,6 @@ Click the 'Interactive Quality Plot' tab to view Phred scores
 **If they are paired end then we need to join them**
    - Aligns forward and reverse sequences
 
-![Human Microbiome24](/images/pe_quality.png)
-
-   Paired end quality scores across sequence. Source: Kwon, S. Lee, B. Yoon, S. doi: 10.1186/1471-2105-15-S9-S10
 
 **We also need to do some trimming and filtering to remove basepairs and sequences with low quality score**
 
@@ -859,7 +815,6 @@ To view all of the parameters available in a QIIME2 script follow just the funct
 DADA2 - The New OTU
 ------------------------------------------------------------------
 
-![Human Microbiome25](/images/otu_traditional.png)
 
    Traditional Operational Taxonomic Unit (OTU) clustering
 
@@ -1267,21 +1222,8 @@ Microbiome analysis and hypothesis testing
 
 Ordination and composition analysis
 -----------------------------------------------
-**First, an example: A study of the gut microbiome in melanoma patients.**
 
-The authors looked at how patients responded to treatment and how that related to survival.
-
-![Survival curve](/images/tumor_survival.png)
-
-Survival of melanoma patients with response to anti-PD-1 immunotherapy. Source: Gopalakrishnan, V. et. al. Science. 2017. doi: 10.1126/science.aan4236
-
-They also looked at the gut microbiome using an ordination plot.
-
-![Ordi plot](/images/tumor_ordination.png)
-
-Microbiome ordination highlighting response to anti-PD-1 immunotherapy. Source: Gopalakrishnan, V. et. al. Science. 2017. doi: 10.1126/science.aan4236
-
-#### What does this ordination show?
+#### What does ordination show?
 * Each dot represents an individual sample… a measure of their total gut community
   * They colored each dot based on whether they responded to treatment or not
 * How close two dots are shows how similar their microbial communities are
@@ -1317,7 +1259,7 @@ Microbiome ordination highlighting response to anti-PD-1 immunotherapy. Source: 
 * However, when we plot them on an ordination plot, we don't see this relationship
   * The horseshoe effect can be due to distortions that occur during dimensionality reduction *BUT* in microbiome data the horseshoe pattern can also signify the existance of microbial niches across environments.
   * Read more about that case [here](https://msystems.asm.org/content/2/1/e00166-16)
-![Horseshoe](images/pca_horseshoe.gif)
+
 
 Diversity analysis in more detail
 ---------------------------------------
@@ -1399,12 +1341,3 @@ We want you to be comfortable analyzing your data (or data a collaborator sent y
 3. How does vegetation presence (or other metadata categories) affect alpha and beta diversity of the soil microbes?
 4. Are any features differentially abundant based on any metadata categories? Do the different methods agree?
 
-
-We've reached the end of today's workshop. Go forth and do the microbiome science!
-=======================================
-
-<p align="center">
-  <img src="/images/giphy3.gif" alt="animated" width="600" height ="300" />
-</p>
-
-**Please take a few minutes to complete a post-workshop survey [here](https://www.surveymonkey.com/r/R9CHW6Y) when you have time. This link will be activate for the next *7* days (and we will e-mail you a reminder as well). Your feedback will help us guage how well we presented the materials to you today and update our workshops for future offerings.**
