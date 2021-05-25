@@ -493,7 +493,6 @@ They can be displayed in a couple ways.
 
 **The first is as two separate files for the sequences and the quality scores**
 
-![Human Microbiome17](/images/fasta_qual_format.png)
 
    Fasta and quality score file formats
 
@@ -508,13 +507,13 @@ They can be displayed in a couple ways.
       - Contain scores that describe how confident the sequencer is in that particular base call
       - Often these are expressed as Phred scores:
 
-![Human Microbiome18](/images/phred_score.png)
+
 
    Phred score translation to base call accuracy
 
 **A second way you may find your files is a fastq file**
 
-![Human Microbiome19](/images/fastq_format.png)
+
 
    Fastq file format
 
@@ -547,9 +546,6 @@ Types of Sequences in QIIME2
       - Quality scores or not (if you generated the data you should have these)
       - Barcodes may be in a separate file
 
-![Human Microbiome21](/images/qiime2_import_demultiplex.png)
-
-   Source: QIIME2 - https://docs.qiime2.org/2021.4/tutorials/overview/#demultiplexing
 
 **Generally importing sequences will follow this format:**
 
@@ -587,9 +583,6 @@ sample-1,$PWD/some/filepath/sample1_R2.fastq,reverse
    - This is important because they are always converted to 33 - Ask sequencing center!
    - If you can ask for 33, as the 64 can be slow to convert for large files
 
-![Human Microbiome22](/images/phred_scores.gif)
-
-   Phred score encoding for 64 and 33. Source: https://www.drive5.com/usearch/manual/quality_score.html
 
 **Command options:**
 ```
@@ -1170,7 +1163,7 @@ Community transformation and examination
 
 Alpha and beta biodiversity
 ----------------------------------------------------
-Rob already gave you a great overview of alpha and beta diversity prior to the workshop. You can rewatch those videos [here](https://youtu.be/CQaFT_vVQvw). Briefly, **alpha diversity** measures within-sample diversity, while **beta diversity** measure between-sample diversity. [There are many metrics (ways to measure) alpha and beta diversity.](https://forum.qiime2.org/t/alpha-and-beta-diversity-explanations-and-commands/2282) Some take phylogeny into account, while others do not. Some are based on presence/absence of microbes, and others account for abundance.
+Rob gave a great overview of alpha and beta diversity. You can watch those videos [here](https://youtu.be/CQaFT_vVQvw). Briefly, **alpha diversity** measures within-sample diversity, while **beta diversity** measure between-sample diversity. [There are many metrics (ways to measure) alpha and beta diversity.](https://forum.qiime2.org/t/alpha-and-beta-diversity-explanations-and-commands/2282) Some take phylogeny into account, while others do not. Some are based on presence/absence of microbes, and others account for abundance.
 
 #### Alpha diversity
 1. Navigate back to the "Analysis Overview" screen. Under the "Community Profiling" section, select "Alpha-diversity analysis".
@@ -1232,13 +1225,9 @@ Ordination and composition analysis
 #### Here is a great example of one way things can go wrong
 * Let's say there are 20 taxon in an ordination
 * These taxa are linearly related with taxon 1 being the more distant from taxon 20
-
-![Diagonal](/images/Diagonal.gif)
-
 * However, when we plot them on an ordination plot, we don't see this relationship
   * The horseshoe effect can be due to distortions that occur during dimensionality reduction *BUT* in microbiome data the horseshoe pattern can also signify the existance of microbial niches across environments.
   * Read more about that case [here](https://msystems.asm.org/content/2/1/e00166-16)
-
 
 Diversity analysis in more detail
 ---------------------------------------
