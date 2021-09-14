@@ -1,4 +1,4 @@
-# Welcome to the VMI Microbiome Workshop!
+# Welcome to the VMI Microbiome Workshop Day 1!
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
 
