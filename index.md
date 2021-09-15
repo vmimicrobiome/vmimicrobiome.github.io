@@ -1,6 +1,8 @@
-# Welcome to the VMI Microbiome Workshop Day 1!
+# Welcome to the VMI Microbiome Workshop!
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
+[Go to Day 2 of the workshop](#day-2)
+
 
 Introducing the Microbiome
 -------------------------------------------------------------------------------------------------
@@ -1087,6 +1089,19 @@ We did it!!!!
 ....but why are some confidence scores greater than 1?!? Did we break statistics? It turns out these are rounding errors and can safely be considered to be ~1 or 100% confidence. Want to know more?  Read [this](https://forum.qiime2.org/t/confidence-intervals-greater-than-1-in-custom-classifier/15014/5)
 
 
+We will pause here for today to take questions and meet back tomorrow at 12PM CST to take our newly created BIOM table to Microbiome Analyst. Thanks! 
+=====================================
+#Day 2
+
+<p align="center">
+  <img src="/images/giphy_bacteria.gif" alt="animated" width="600" height ="300" />
+</p>
+
+Welcome to Day 2 of the Workshop
+=====================================
+
+
+
 Exporting QIIME Feature Tables
 ----------------------------------
 In order to proceed with downstream analysis in [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca/), we will need to export our feature table, taxonomic assignments, and phylogenetic tree. We do this using the QIIME2 tools command.
@@ -1119,15 +1134,7 @@ Finally, we need to export the phylogenetic tree for downstream phylogenetic ana
     --output-path paired_end/rooted_tree.tre
 ```
 
-We will pause here for today to take questions and meet back tomorrow at 12PM CST to take our newly created BIOM table to Microbiome Analyst. Thanks! 
-=====================================
 
-<p align="center">
-  <img src="/images/giphy_bacteria.gif" alt="animated" width="600" height ="300" />
-</p>
-
-Welcome to Day 2 of the Workshop
-=====================================
 Exporting QIIME Feature Tables
 ----------------------------------
 In order to proceed with downstream analysis in [MicrobiomeAnalyst](https://www.microbiomeanalyst.ca/), we will need to export our feature table, taxonomic assignments, and phylogenetic tree. We do this using the QIIME2 tools command.
