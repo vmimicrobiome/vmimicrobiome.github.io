@@ -1,7 +1,7 @@
 # Welcome to the VMI Microbiome Workshop!
 
 ![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
-[Go to Day 2 of the workshop](#day-2)
+[Go to Day 2 of the workshop](#day-two-workshop)
 
 
 Introducing the Microbiome
@@ -1091,7 +1091,8 @@ We did it!!!!
 
 We will pause here for today to take questions and meet back tomorrow at 12PM CST to take our newly created BIOM table to Microbiome Analyst. Thanks! 
 =====================================
-#Day 2
+
+#Day two workshop
 
 <p align="center">
   <img src="/images/giphy_bacteria.gif" alt="animated" width="600" height ="300" />
