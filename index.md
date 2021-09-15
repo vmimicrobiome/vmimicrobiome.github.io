@@ -1122,8 +1122,10 @@ Finally, we need to export the phylogenetic tree for downstream phylogenetic ana
 We will pause here for today to take questions and meet back tomorrow at 12PM CST to take our newly created BIOM table to Microbiome Analyst. Thanks! 
 =====================================
 
-<iframe src="https://giphy.com/embed/kmqzwhXtaGg7u" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p>
-	
+<p align="center">
+  <img src="/images/giphy_bacteria.gif" alt="animated" width="600" height ="300" />
+</p>
+
 Welcome to Day 2 of the Workshop
 =====================================
 Exporting QIIME Feature Tables
