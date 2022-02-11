@@ -466,22 +466,11 @@ Depending on the specifics of your data, you may also need to:
 
 QIIME2 has extensive documentation, including guides on what to do with specific data types: [QIIME2 documentation](https://docs.qiime2.org/2021.11/). However! It is difficult to use a normal search engine to find things in the QIIME documentation because they update the documentation with each release. Instead, directly searching the documentation is best.
 
-![QIIME2Doc1](/images/qiime2_docs1.jpeg)
+![QIIME2Doc1](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/qiime2_docs1.jpg)
 
 Also, the QIIME developers put together a forum where users can ask questions: [QIIME Forum](https://forum.qiime2.org/) It's a great place to go when you get stuck or have a non-standard analysis to do. You'll get answers both from other researchers (who may have encountered your same roadblock before!), but the QIIME developers also monitor it.
 
-![QIIME2Doc2](/images/qiime_forum1.jpeg)
-
-Sampling the Mouse Microbiome
-==================================================================
-<p align="center">
-  <img src="/images/giphy2.gif" alt="animated" width="600" height ="300" />
-</p>
-
-The objective of this lecture is to provide the attendees with an overview of factors that may influence animal experiment outcomes in microbiota research. Additionally, we will discuss the experimental approaches available to establish a causative role for the gut microbiota in disease.
-
-Please find the presentation being shared by Dr. Byndloss available for download [here](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/Presentation_Bootcamp%202021.pdf) and an excellent article on *best practices for analysing microbiomes* [right here!](https://pubmed.ncbi.nlm.nih.gov/29795328/)
-
+![QIIME2Doc2](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/qiime_forum1.jpg)
 
 From Sequences to Community Composition
 =================================================================
