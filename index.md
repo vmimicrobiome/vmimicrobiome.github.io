@@ -38,15 +38,17 @@ This is code that you can copy and paste!
 
 1) The main thing we need to do to be prepared for the workshop is [install Qiime on a Mac](https://youtu.be/1vRQ2MPRRpo) or [install Qiime on a Windows PC](https://youtu.be/b4l_wIJ1dwE) and make sure it runs! 
 
-**If you're not able to get Qiime2 running then make a zoom appointment with the [VMIC team](mailto:robert.h.markowitz@vanderbilt.edu) and we'll try to trouble shoot it along with you. We have availability every Monday and Friday from 12PM-1PM.**
 
 2) Download the [data folder](https://github.com/vmimicrobiome/vmimicrobiome.github.io) that we will be using during the workshop by clicking the green 'Code' botton and then select "Download Zip". Save it to your Desktop space and don't forget to unzip it! Then open it and click-and-drag the three folders in it (**american_gut** AND **paired_end** AND **practice_dataset**) onto your Desktop. 
 
 
 3) Download the [Green Genes Database](https://github.com/awbrooks19/vmi_microbiome_bootcamp/blob/master/data/greengenes.zip) we will use during the Qiime portion of the workshop. Click the 'Download' button and save this to your Desktop as well. 
 
+
+4) Take the [pre-workshop survey]! (https://www.surveymonkey.com/r/MP3HDQ5) Please make sure you take the survey before and after the workshop. This community feedback allows us to offer this workshop for free and is the only requirment for attending! Thanks so much. 
+
 ---
-### That's all for now, microbe hunters! We'll see you soon! 
+### That's all for now. We'll see you soon! 
 
 ![Microbiome3](https://media.nature.com/lw800/magazine-assets/d41586-020-00194-2/d41586-020-00194-2_17582908.jpg)
 
