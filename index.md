@@ -45,7 +45,7 @@ This is code that you can copy and paste!
 3) Download the [Green Genes Database](https://github.com/awbrooks19/vmi_microbiome_bootcamp/blob/master/data/greengenes.zip) we will use during the Qiime portion of the workshop. Click the 'Download' button and save this to your Desktop as well. 
 
 
-4) Take the [pre-workshop survey]! (https://www.surveymonkey.com/r/MP3HDQ5) Please make sure you take the survey before and after the workshop. This community feedback allows us to offer this workshop for free and is the only requirment for attending! Thanks so much. 
+4) Take the [pre-workshop survey](https://www.surveymonkey.com/r/MP3HDQ5)! Please make sure you take the survey before and after the workshop. This community feedback allows us to offer this workshop for free and is the only requirment for attending! Thanks so much. 
 
 ---
 ### That's all for now. We'll see you soon! 
