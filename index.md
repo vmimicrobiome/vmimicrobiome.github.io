@@ -2,7 +2,7 @@
 
 **This page will help prepare you for the workshop**
 
-![VMI](https://news.vanderbilt.edu/files/Vanderbilt-Microbiome-Initiative-banner.jpg)
+![VMI](/images/vmic.jpg)
 
 ---
 ### ABOUT THE VMIC 
