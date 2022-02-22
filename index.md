@@ -473,11 +473,10 @@ Also, the QIIME developers put together a forum where users can ask questions: [
 ![QIIME2Doc2](https://github.com/vmimicrobiome/vmimicrobiome.github.io/blob/main/images/qiime_forum1.jpg)
 
 
-Invited VMIC Speaker: Dr. Megan Behringer 
+Invited VMIC Speaker: Metagenomics with Dr. Megan Behringer 
 =================================================================
 
-
-![VMI](/images/vmic.jpg)
+![VMI](/images/F1.large.jpg)
 
 
 
